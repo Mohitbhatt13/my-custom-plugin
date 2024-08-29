@@ -1,0 +1,25 @@
+.step {
+    display: none;
+}
+
+.step-1,
+.step-2,
+.step-3 {
+    display: block;
+}
+
+input[type="text"], input[type="email"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
+/* CSS for applying a border to a form */
+form {
+    border: 2px solid #000; /* 2px width, solid line, black color */
+    padding: 20px;          /* Add some padding inside the form */
+    margin: 10px;           /* Optional: add some margin around the form */
+    border-radius: 5px;     /* Optional: add rounded corners to the border */
+}
